@@ -52,9 +52,9 @@ function commonWord(word1, word2)
     var one = word1
     var two = word2
     var result = [];
-    for (var i = 0;i< one.length; i++)
+    for (var i = 0; i < one.length; i++)
     {
-        if (word1.indexOf(one[i]) !== -1 && result.indexOf(one[i]) === -1)
+        if (two.indexOf(one[i]) !== -1 && result.indexOf(one[i]) === -1)
             {
             result.push(one[i]);
         }
